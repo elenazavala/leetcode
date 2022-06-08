@@ -11,14 +11,14 @@
 	while (start < end) {
 		let curr_sum = numbers[start] + numbers[end];
 		if (curr_sum  > target) {
-      end--;
-    } 
+      			end--;
+    		} 
 		else if (curr_sum  < target) {
-      start++;
-    }
+      			start++;
+    		}
 		else{
-      return [start +1, end +1];
-    }
+      			return [start +1, end +1];
+    		}
 	};
    
 	return [];
